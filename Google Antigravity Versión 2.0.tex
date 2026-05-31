@@ -1,0 +1,434 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\title{Google Antigravity Versión 2.0}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{¿Está ``Gemini Code Assist'' disponible como extensión en la versión 2.0 de ``Google Antigravity''?}
+
+\textbf{No}, Gemini Code Assist no está disponible como una extensión dentro de \textbf{Google Antigravity 2.0}. De hecho, Google ha rediseñado por completo su ecosistema y la actualización 2.0 cambia radicalmente las cosas: [1, 2, 3]
+
+\begin{itemize}
+    \item \textbf{Antigravity 2.0 ya no es un IDE tradicional}: Se ha transformado en una aplicación de escritorio independiente (``\textit{agent-first}'') enfocada puramente en la orquestación y ejecución de agentes autónomos de IA en paralelo. No cuenta con un editor de código convencional de manera nativa ni un mercado de extensiones para asistentes del tipo autocompletar. [2, 4, 5, 6, 7]
+    \item \textbf{La unificación de Google}: Google ha integrado y absorbido las funciones de Gemini Code Assist individuales y Gemini CLI dentro de la propia plataforma de \textbf{Antigravity 2.0} y \textbf{Antigravity CLI}. [1, 8]
+    \item \textbf{El fin del soporte individual}: Las extensiones de Gemini Code Assist para usuarios individuales dejarán de operar. Si eres un usuario gratuito o independiente, Google te migrará de forma directa a usar el plan individual de Antigravity. [1, 8, 9]
+\end{itemize}
+
+\section*{¿Cómo conviven estas herramientas actualmente?}
+
+Para entender el nuevo ecosistema, Google dividió su software en tres variantes principales: [2]
+
+\begin{enumerate}
+    \item \href{https://antigravity.google/}{\textbf{Google Antigravity 2.0}} \textbf{(App de escritorio)}: Es el centro de comando para lanzar instrucciones complejas (``Modo Agente''). Delegas la tarea, la IA genera un plan, abre subagentes y edita archivos en segundo plano sin que tengas que programar línea por línea. [10, 11, 12, 13]
+    \item \textbf{Antigravity ID (El Editor)}: Si extrañas la interfaz clásica parecida a VS Code (donde tenías el código a la izquierda y el chat a la derecha), Google mantiene por separado \textbf{Antigravity ID}. En esta versión sí puedes usar extensiones tradicionales y un flujo de trabajo típico de desarrollo. [2, 6, 14]
+    \item \textbf{Antigravity CLI}: El sustituto oficial de terminal basado en Go que reemplaza a Gemini CLI por completo. [2, 6]
+\end{enumerate}
+
+\textit{Nota para empresas:} Si en tu organización pagan una licencia de \textbf{Gemini Code Assist Standard o Enterprise}, esas extensiones en IDEs externos (como VS Code tradicional o JetBrains) seguirán funcionando con normalidad y no se verán afectadas por este cambio. [1, 15]
+
+Si utilizabas la versión gratuita de Gemini Code Assist, te recomiendo descargar directamente la suite de \textbf{Antigravity 2.0} para empezar a experimentar con el desarrollo basado en agentes autónomos. ¿Te gustaría que te explique cómo configurar tus proyectos en esta nueva interfaz de agentes o prefieres ver cómo instalar \textbf{Antigravity ID} para conservar un editor tradicional? [2, 9]
+
+[1] \url{https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/} \\{}
+[2] \url{https://www.youtube.com/watch?v=RZ1ZSRuShn4} \\{}
+[3] \url{https://www.youtube.com/watch?v=KR4PDUnftOg} \\{}
+[4] \url{https://www.youtube.com/watch?v=m9FO5aM_1gw&vl=es-419} \\{}
+[5] \url{https://ecosistemastartup.com/google-antigravity-2-0-crea-agentes-ia-con-1-instruccion/} \\{}
+[6] \url{https://www.youtube.com/shorts/UukjXOMLRnM} \\{}
+[7] \url{https://www.reddit.com/r/google_antigravity/comments/1thxv5g/introducing_google_antigravity_20/?tl=es-419} \\{}
+[8] \url{https://www.forgenex.com/public/blog/antigravity-2-0-google-unifica-sus-herramientas-de-ia-para-desarrollo-en-una-plataforma-agent-first} \\{}
+[9] \url{https://developers.google.com/gemini-code-assist/resources/faqs} \\{}
+[10] \url{https://www.youtube.com/watch?v=_Ed5yOQfvWU} \\{}
+[11] \url{https://antigravityide.org/} \\{}
+[12] \url{https://antigravityide.org/} \\{}
+[13] \url{https://www.youtube.com/watch?v=-0Irz8G0PEE} \\{}
+[14] \url{https://www.youtube.com/watch?v=jrhJC6cpsmI&t=82} \\{}
+[15] \url{https://fazt.dev/contenido/google-antigravity-2-0-gemini-3-5-flash}
+
+En la versión clásica parecida a VS Code, ¿está disponible ``Gemini Code Assist'' entre las extensiones tradicionales?
+
+\textbf{Sí, pero ya no es necesario instalarla}. En la interfaz clásica basada en VS Code de Antigravity (el editor integrado), \textbf{las funciones de Gemini Code Assist vienen preinstaladas de forma nativa como el motor de IA principal del sistema}. [1, 2, 3]
+
+Si de todos modos buscas la extensión tradicional de ``Gemini Code Assist'' (o la antigua de Google Cloud Code) dentro de su menú de extensiones, debes tener en cuenta los siguientes puntos técnicos clave:
+
+\begin{itemize}
+    \item \textbf{Viene integrada en el núcleo:} Al abrir el editor de Antigravity por primera vez, verás que la barra lateral de chat de IA, el autocompletado en línea y las predicciones ya están impulsados directamente por Gemini. No tienes que ir a la tienda a buscarla. [1, 4]
+    \item \textbf{El mercado de extensiones por defecto es Open VSX:} Antigravity es una bifurcación de código abierto de VS Code, por lo que su catálogo nativo de extensiones es Open VSX. Dado que la extensión tradicional de Gemini Code Assist es propiedad exclusiva de Google para el IDE de Microsoft, \textbf{no aparece en la búsqueda inicial}. [5, 6]
+    \item \textbf{Cómo usar extensiones externas:} Si por algún motivo necesitas forzar una versión específica o instalar extensiones exclusivas de Microsoft, los desarrolladores suelen modificar la configuración de Antigravity para apuntar al Marketplace oficial de VS Code, o instalan manualmente los archivos descargados en formato \texttt{.vsix}.
+\end{itemize}
+
+En resumen: puedes programar con el flujo tradicional de VS Code en Antigravity y tendrás todo el poder de Gemini Code Assist activo desde el primer minuto sin descargar ningún complemento adicional. [1, 3, 7]
+
+¿Te gustaría saber cómo \textbf{importar directamente tu configuración, temas y atajos desde tu VS Code actual} hacia Antigravity para no perder tu entorno personalizado? [2]
+
+[1] \url{https://www.instagram.com/reel/DRNfWl8D31i/?hl=es} \\{}
+[2] \url{https://codelabs.developers.google.com/getting-started-google-antigravity?hl=es-419} \\{}
+[3] \url{https://www.reddit.com/r/google_antigravity/comments/1sbegkw/vs_code_vs_googles_antigravity/?tl=es-419} \\{}
+[4] \url{https://developers.google.com/gemini-code-assist/docs/write-code-gemini} \\{}
+[5] \url{https://www.youtube.com/watch?v=JWo_SaV95dM} \\{}
+[6] \url{https://translate.google.com/translate?u=https://www.xda-developers.com/googles-antigravity-beats-vs-code/&hl=es&sl=en&tl=es&client=sge} \\{}
+[7] \url{https://translate.google.com/translate?u=https://jimmysong.io/blog/antigravity-vscode-style-ide/&hl=es&sl=en&tl=es&client=sge}
+
+necesito saber como importar mi configuración, temas y atajos que tengo en mi ``Google Antigravity'' viejo al nuevo ``Google Antigravity''
+
+Para migrar tu configuración, temas y atajos desde la versión vieja de Google Antigravity a la nueva, debes tener en cuenta que el salto a la versión 2.0 modificó por completo las carpetas del sistema. La actualización automática suele reescribir los directorios y ``esconder'' tus preferencias anteriores en una carpeta de respaldo. [1, 2]
+
+Dado que tus temas y atajos de teclado tradicionales pertenecen al entorno de desarrollo clásico, el destino correcto para restaurarlos es la aplicación \textbf{Antigravity IDE} (y no la app de escritorio 2.0 basada exclusivamente en agentes). [3, 4]
+
+Aplica el siguiente procedimiento manual según tu sistema operativo para transferir tus datos de forma inmediata: [5]
+
+\section*{En Windows}
+
+\begin{enumerate}
+    \item Presiona las teclas \texttt{WIN + R}, escribe \texttt{\%APPDATA\%} en el cuadro de ejecución y presiona Enter.
+    \item Ubica la carpeta llamada \textbf{Antigravity} (que contiene tus datos viejos) y cópiala temporalmente a tu Escritorio como respaldo.
+    \item Instala y abre por primera vez el nuevo \textbf{Antigravity IDE} para que genere sus nuevas rutas; luego ciérralo por completo.
+    \item Vuelve a \texttt{\%APPDATA\%}, abre la nueva carpeta llamada \textbf{Antigravity IDE} y pega allí todo el contenido que guardaste en el paso 2 (sobrescribiendo si es necesario). [4, 6, 7]
+\end{enumerate}
+
+\textit{Si prefieres hacerlo rápido por consola, abre la terminal CMD y ejecuta estos comandos:} [5]
+
+\begin{verbatim}
+xcopy "%APPDATA%\Antigravity" "%APPDATA%\Antigravity IDE" /E /I /H /Y
+xcopy "%USERPROFILE%\.antigravity" "%USERPROFILE%\.antigravity-ide" /E /I /H /Y
+\end{verbatim}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\section*{En macOS}
+
+Abre la Terminal y ejecuta los siguientes comandos para clonar tu configuración global y tus extensiones hacia el nuevo entorno: [5]
+
+\begin{verbatim}
+cp -rf ~/.antigravity ~/.antigravity-ide
+cp -rf ~/Library/Application\ Support/Antigravity ~/Library/Application\ Support/Antigravity\ IDE
+\end{verbatim}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\section*{En Linux}
+
+Abre tu Terminal y copia los directorios ocultos ejecutando: [5]
+
+\begin{verbatim}
+cp -rf ~/.antigravity ~/.antigravity-ide
+cp -rf ~/.config/Antigravity ~/.config/Antigravity\ IDE
+\end{verbatim}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\section*{Migración de comandos para la Terminal (CLI)}
+
+Si además utilizabas atajos de comandos en la terminal (\texttt{Gemini CLI}), la nueva herramienta de comandos de Google incluye una función de migración automática. Al ejecutar por primera vez la nueva consola de Antigravity (\texttt{agy}), te aparecerá un asistente interactivo. Si prefieres forzar la importación manualmente desde tu terminal, escribe: [2, 8, 9]
+
+\begin{verbatim}
+agy plugin import gemini
+\end{verbatim}
+
+Una vez que abras tu nuevo Antigravity IDE, verás que tu entorno, atajos de teclado y paletas de colores se habrán restaurado exactamente como los tenías. [5]
+
+¿Pudiste localizar las carpetas originales en tu sistema o prefieres que te ayude a revisar si tus perfiles antiguos quedaron guardados bajo alguna ruta de respaldo diferente?
+
+[1] \url{https://dev.to/turingsoracle/antigravity-is-dead-long-live-antigravity-186m} \\{}
+[2] \url{https://www.youtube.com/watch?v=dWD7Unllcdk&t=7} \\{}
+[3] \url{https://www.reddit.com/r/google_antigravity/comments/1tih8bf/how_to_migrate_your_settings_and_extensions_from/?tl=es-es} \\{}
+[4] \url{https://www.youtube.com/watch?v=fXj7lG4V1IU} \\{}
+[5] \url{https://www.reddit.com/r/google_antigravity/comments/1tih8bf/how_to_migrate_your_settings_and_extensions_from/} \\{}
+[6] \url{https://discuss.ai.google.dev/t/antigravity-ide-2-0-conversation-history-migrate-problem/165643} \\{}
+[7] \url{https://www.reddit.com/r/GeminiAI/comments/1ti01zq/updated_antigravity_now_its_version_20_and_all_my/} \\{}
+[8] \url{https://antigravity.google/docs/gcli-migration?authuser=19&hl=es} \\{}
+[9] \url{https://antigravity.google/docs/gcli-migration?authuser=01&;hl=it&hl=it}
+
+entonces si las funciones de ``Gemini Code Assist'' vienen preinstaladas de forma nativa como la IA principal en la versión 2.0, ¿significa que ahora ``Gemini Code Assist'' es la LLM orquestadora de los demas agentes de IA en esa versión?
+
+\textbf{No exactamente, no hay que confundir la marca comercial con el modelo de lenguaje de orquestación}.
+
+``Gemini Code Assist'' es el nombre comercial del producto enfocado en desarrollo (anteriormente conocido como Duet AI), pero \textbf{el LLM que actúa como el verdadero cerebro u orquestador en Google Antigravity 2.0 es el modelo fundacional Gemini 3 Pro}. [1, 2, 3]
+
+La arquitectura multi-agente de la versión 2.0 funciona bajo una lógica descentralizada y abierta muy particular: [1, 4]
+
+\begin{itemize}
+    \item \textbf{El Gestor de Agentes (Agent Manager):} Antigravity 2.0 incluye un panel central nativo que se encarga de recibir tu instrucción en lenguaje natural, trazar el plan de ejecución y delegar las tareas secundarias a distintos subagentes en paralelo (como escribir pruebas, refactorizar componentes o revisar bases de datos). [3, 4, 5]
+    \item \textbf{Soporte multi-modelo nativo:} Aunque \textbf{Gemini 3 Pro} viene configurado por defecto para la orquestación general y razonamientos complejos, la plataforma de Google es agnóstica. Permite cambiar el modelo asignado a cada subagente individual. Puedes configurar la plataforma para que un subagente use modelos externos de la competencia, como \textbf{Claude 3.5 Sonnet} o \textbf{GPT-OSS}, si consideras que rinden mejor para una tarea de código o automatización específica. [1, 3]
+    \item \textbf{Integración profunda (Deep Integration):} La razón por la que ``Gemini Code Assist'' deja de existir como extensión independiente para fusionarse en este entorno es de rendimiento. Al estar embebido en el núcleo de Antigravity, el modelo de Google tiene acceso directo a las herramientas del sistema (como la consola \texttt{agy} o la API de agentes administrados), eliminando la latencia que causaban las extensiones de los IDE tradicionales. [2, 4, 6]
+\end{itemize}
+
+En conclusión: Gemini Code Assist fue absorbido por la plataforma. Ahora el flujo operativo es controlado por la infraestructura agéntica de \textbf{Antigravity 2.0}, la cual utiliza por defecto a \textbf{Gemini 3 Pro} como el director de la orquesta, pero con la libertad de delegar tareas a otros LLMs del mercado. [1, 3, 6, 7]
+
+¿Te interesa ver un ejemplo de cómo \textbf{configurar un flujo de trabajo asignando diferentes modelos} (como Gemini y Claude) a subagentes específicos en un mismo proyecto?
+
+[1] \url{https://antigravityide.net/} \\{}
+[2] \url{https://www.facebook.com/groups/882824057510049/posts/954218137037307/} \\{}
+[3] \url{https://www.reddit.com/r/ChatGPTCoding/comments/1p35bdl/i_tried_googles_new_antigravity_ide_so_you_dont/} \\{}
+[4] \url{https://www.buildmvpfast.com/blog/google-antigravity-2-framework-cli-agent-deployment-2026} \\{}
+[5] \url{https://www.youtube.com/watch?v=PV3iPRVADxU&t=4} \\{}
+[6] \url{https://www.instagram.com/p/DY2VxIhqcxB/} \\{}
+[7] \url{https://antigravity.google/product/antigravity-2}
+
+si por favor.
+
+Para configurar un flujo de trabajo multi-modelo en \textbf{Google Antigravity 2.0}, se utiliza el panel de \textbf{Customizations} (Personalizaciones) o se estructuran archivos Markdown especiales llamados \textbf{Agent Skills}. Estos archivos sirven como ``módulos programables'' que dictan a qué IA delegar cada subtarea. [1, 2, 3, 4]
+
+Para lograr que \textbf{Gemini} organice y \textbf{Claude} ejecute código de forma combinada, sigue este proceso paso a paso:
+
+\section*{1. Crear el flujo de trabajo (Workflow)}
+
+\begin{enumerate}
+    \item Abre \textbf{Antigravity 2.0} y ve al \textbf{Agent Manager} (Administrador de agentes).
+    \item En la esquina superior derecha, haz clic en el menú de tres puntos (\textbf{...}) y selecciona \textbf{Customizations}.
+    \item Ve a la pestaña \textbf{Workflows} y presiona \textbf{+ Workspace} para aplicarlo solo a tu proyecto actual.
+    \item Nombra el flujo como \texttt{desarrollo\_mixto}. [2, 3, 5]
+\end{enumerate}
+
+\section*{2. Configurar la asignación de LLMs en el Content}
+
+Dentro del cuadro de texto del contenido (Content), pega la estructura de orquestación. Antigravity lee las instrucciones en Markdown e interpreta las etiquetas de enrutamiento de modelos de forma nativa. Copia este ejemplo: [2, 3]
+
+\begin{verbatim}
+# Workflow: Desarrollo y Pruebas Mixtas
+Description: Orquesta tareas dividiendo el trabajo entre Gemini y Claude.
+
+## Step 1: Planificación y Arquitectura
+- Agent: "Architect_Agent"
+- Primary_Model: "gemini-3-pro"
+- Instruction: >
+    Analiza el repositorio actual. Diseña la estructura técnica para
+    la nueva funcionalidad solicitada por el usuario y genera la lista
+    de tareas (Artifact).
+
+## Step 2: Escritura de Código
+- Agent: "Coder_Agent"
+- Primary_Model: "claude-sonnet-4.5"
+- Instruction: >
+    Toma el Artifact generado por el Architect_Agent en el paso 1.
+    Escribe el código fuente correspondiente respetando las directrices
+    arquitectónicas. Abre la terminal interna si necesitas instalar paquetes.
+
+## Step 3: Generación de Pruebas Unitarias
+- Agent: "QA_Agent"
+- Primary_Model: "gemini-3-flash"
+- Instruction: >
+    Lee el código generado por Coder_Agent. Genera la suite de pruebas unitarias
+    con cobertura del 90%. Ejecuta los tests en el entorno aislado para verificar.
+\end{verbatim}
+
+\section*{3. Ejecutar el flujo multi-modelo}
+
+Una vez que guardes el archivo, la plataforma compilará la receta. Para activarla dentro del chat de tu proyecto, simplemente invoca el comando con una barra diagonal: [2, 3]
+
+\begin{verbatim}
+/desarrollo_mixto "Crea un sistema de autenticación JWT para la API"
+\end{verbatim}
+
+\section*{¿Qué pasará en tu pantalla al ejecutarlo?}
+
+El \textbf{Agent Manager} (Mission Control) iniciará la tarea usando \textbf{Gemini 3 Pro} como cerebro base. En la barra lateral verás cómo se abren dinámicamente los subagentes: [5, 6, 7]
+
+\begin{itemize}
+    \item Verás un indicador verde que dice \texttt{[Architect\_Agent - Gemini 3 Pro]} analizando tus archivos.
+    \item Automáticamente, la tarea pasará al segundo subagente, cambiando el indicador a \texttt{[Coder\_Agent - Claude 4.5]} mientras se redacta el código fuente de forma masiva.
+    \item Por último, \textbf{Gemini 3 Flash} entrará en acción para programar los tests de forma rápida y económica. [6, 8]
+\end{itemize}
+
+Al finalizar el flujo, la app te presentará un \textbf{Artifact} (un entregable listo) con la lista de archivos modificados para que le des tu aprobación final antes de guardarlos. [5, 9]
+
+¿Te gustaría que diseñemos un flujo específico para tu lenguaje de programación actual o prefieres ver cómo conectar bases de datos utilizando las \textbf{Agent Skills} de Antigravity? [1, 10]
+
+[1] \url{https://antigravity.google/docs/skills} \\{}
+[2] \url{https://antigravity.google/docs/rules-workflows} \\{}
+[3] \url{https://agentpedia.codes/blog/workflows} \\{}
+[4] \url{https://www.youtube.com/watch?v=yuaBPLNdNSU&vl=es} \\{}
+[5] \url{https://www.youtube.com/watch?v=5vSKhKsvayA} \\{}
+[6] \url{https://www.youtube.com/watch?v=sEk6fcdSYmI&t=20} \\{}
+[7] \url{https://discuss.ai.google.dev/t/multi-agent-use-in-antigravity/117941} \\{}
+[8] \url{https://www.eigent.ai/blog/antigravity-vs-claude-cowork} \\{}
+[9] \url{https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/} \\{}
+[10] \url{https://codelabs.developers.google.com/getting-started-with-antigravity-skills}
+
+este flujo de trabajo multimodelo permite ahorrar tokens?
+
+\textbf{Sí, y de forma drástica}. El diseño de flujos de trabajo multi-modelo en Google Antigravity 2.0 es, actualmente, una de las mejores estrategias para \textbf{reducir el consumo de tokens y optimizar los costos operativos}.
+
+Si utilizaras un solo modelo de gama alta (como \textit{Gemini 3 Pro} o \textit{Claude Sonnet}) para absolutamente todo el proceso, gastarías una fortuna en tokens de contexto. Al dividir las tareas, ahorras tokens mediante tres mecanismos clave:
+
+\section*{1. Asignación por complejidad (Modelo Inteligente vs. Modelo Económico)}
+
+No todas las tareas requieren el mismo nivel de razonamiento. El flujo te permite pagar el ``precio premium'' de los tokens solo cuando es estrictamente necesario:
+
+\begin{itemize}
+    \item \textbf{Planificación (Cerebro):} Usas \textit{Gemini 3 Pro} solo para el paso 1 (analizar la arquitectura). Pagas tokens caros solo por la estrategia.
+    \item \textbf{Escritura (Ejecutor):} Pasas la tarea a un modelo especializado en código.
+    \item \textbf{Pruebas (Editor/Corrector):} La generación de pruebas unitarias o documentación es repetitiva. Al delegarla a \textbf{Gemini 3 Flash} en el paso 3, procesas miles de líneas de código usando un modelo que cuesta hasta \textbf{10 veces menos por token} que las versiones Pro.
+\end{itemize}
+
+\section*{2. Segmentación del Contexto (Menos ``Basura'' en la Memoria)}
+
+En un chat tradicional de IA, cada vez que envías un mensaje nuevo, el sistema vuelve a leer \textbf{toda la conversación anterior} (efecto bola de nieve de tokens). Antigravity 2.0 rompe este ciclo:
+
+\begin{itemize}
+    \item El \texttt{QA\_Agent} (Gemini Flash) \textbf{solo recibe el código generado en el paso anterior}.
+    \item No necesita leer las discusiones arquitectónicas, los intentos fallidos ni el historial completo del chat.
+    \item Al aislar el contexto de cada subagente, el consumo de tokens de entrada (\textit{input tokens}) se mantiene lineal en lugar de exponencial.
+\end{itemize}
+
+\section*{3. Uso Eficiente de los ``Artifacts'' (Entregables)}
+
+En lugar de pasarse archivos enteros y pesados entre agentes, el sistema utiliza los \textbf{Artifacts}. Un agente condensa la información en un resumen técnico estructurado (un artefacto de pocas líneas) y se lo pasa al siguiente. Esto evita inyectar miles de líneas de código fuente redundante en la ventana de contexto del próximo modelo.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\section*{Estimación de Ahorro Real}
+
+En proyectos medianos o grandes, implementar esta división de tareas (Pro para estructurar $\rightarrow$ Especializado para programar $\rightarrow$ Flash para testear y documentar) suele generar un \textbf{ahorro de entre el 40\% y el 60\% en tu factura de tokens} en comparación con hacer todo el desarrollo dentro de un chat lineal con un único modelo avanzado.
+
+¿Te gustaría que optimicemos el flujo anterior añadiendo \textbf{instrucciones de compresión} en los Artifacts para reducir aún más el consumo de tokens de entrada?
+
+si por favor.
+
+El truco definitivo para congelar el gasto en tu factura de tokens dentro de \href{https://antigravity.google/}{Google Antigravity 2.0} consiste en indicarle explícitamente a los agentes que dejen de transmitirse archivos de código completos de un paso al otro. En su lugar, se les obliga a comunicarse usando \textbf{resúmenes de contexto comprimidos (Prompt Compression)}. [1, 2, 3]
+
+Aquí tienes el flujo de trabajo optimizado. Copia y reemplaza esta receta en la pestaña \textbf{Workflows} de tu panel de personalizaciones: [4]
+
+\begin{verbatim}
+# Workflow: Desarrollo Mixto con Ultra-Ahorro de Tokens
+Description: Orquestación multi-modelo con reglas estrictas de compresión de contexto.
+
+## Step 1: Planificación y Arquitectura Minimalista
+- Agent: "Architect_Agent"
+- Primary_Model: "gemini-3-pro"
+- Instruction: >
+    Analiza el repositorio actual. Diseña la solución técnica para el requerimiento.
+    REGLA DE COMPRESIÓN DE TOKENS: No generes explicaciones largas ni código fuente completo.
+    Entrega el plan de forma comprimida exclusivamente en formato 'Pseudo-código JSON'.
+    Este entregable (Artifact) debe pesar menos de 400 tokens obligatoriamente.
+
+## Step 2: Escritura de Código Focalizada
+- Agent: "Coder_Agent"
+- Primary_Model: "claude-sonnet-4.5"
+- Instruction: >
+    Lee únicamente el Artifact JSON compacto generado en el paso 1.
+    Escribe el código fuente correspondiente para cumplir con el JSON.
+    REGLA DE COMPRESIÓN DE TOKENS: No devuelvas explicaciones ni repitas código que no haya cambiado.
+    Genera un Artifact de salida que contenga estrictamente el bloque de código nuevo y
+    los nombres de las funciones modificadas. Omite comentarios redundantes.
+
+## Step 3: Pruebas Unitarias de Bajo Costo
+- Agent: "QA_Agent"
+- Primary_Model: "gemini-3.5-flash"
+- Instruction: >
+    Toma el bloque de código nuevo generado por Coder_Agent en el paso 2.
+    No leas el historial de conversación anterior para evitar el desperdicio de contexto.
+    Genera la suite de pruebas unitarias enfocándote únicamente en el nuevo bloque de código.
+    Ejecuta el comando en el entorno aislado para validar el resultado.
+\end{verbatim}
+
+\section*{¿Por qué este flujo exprime al máximo tus tokens?}
+
+\begin{enumerate}
+    \item \textbf{La técnica del ``Pseudo-código JSON''}: Obligar a \textit{Gemini 3 Pro} a dar una respuesta estructurada en JSON en el Paso 1 reduce el volumen de texto instructivo. Al no incluir introducciones, párrafos explicativos ni saludos cordiales, el artefacto resultante consume apenas una fracción de los tokens de entrada (\textit{input tokens}) en el Paso 2. [3, 5]
+    \item \textbf{Uso de Gemini 3.5 Flash}: Google optimizó drásticamente el costo de \textbf{Gemini 3.5 Flash} en la versión 2.0. Al derivar la generación de pruebas (el paso que más volumen de líneas de texto plano genera) a este modelo en el Paso 3, realizas el trabajo pesado por un costo monetario ínfimo en comparación con los modelos de frontera. [1, 6, 7]
+    \item \textbf{Aislamiento de la Historia}: La orden dada al agente del Paso 3 de ``\textit{No leas el historial de conversación anterior}'' instruye al backend de Antigravity a realizar un truncamiento de la memoria interna. Esto detiene por completo el efecto ``bola de nieve'', evitando que pagues una y otra vez por los mismos tokens acumulados en el chat durante los turnos previos. [2, 5, 7]
+\end{enumerate}
+
+Con esta estructura de compresión manual e inyección de \textbf{Gemini 3.5 Flash}, el consumo de tokens de tu entorno se reducirá notablemente. [1, 5, 7]
+
+Si utilizas librerías externas o frameworks específicos, puedo enseñarte cómo \textbf{inyectar esquemas ligeros (schemas compactos) de tus librerías} para que el agente escriba código preciso sin tener que leer toda la documentación del framework. ¿Te gustaría ver un ejemplo? [5]
+
+[1] \url{https://www.youtube.com/watch?v=RZ1ZSRuShn4} \\{}
+[2] \url{https://thenewstack.io/how-to-reduce-mcp-token-bloat/} \\{}
+[3] \url{https://www.ibm.com/think/tutorials/prompt-compression} \\{}
+[4] \url{https://www.reddit.com/r/google_antigravity/comments/1thxv5g/introducing_google_antigravity_20/?tl=es-419} \\{}
+[5] \url{https://www.mindstudio.ai/blog/optimize-mcp-server-token-usage} \\{}
+[6] \url{https://www.youtube.com/watch?v=PV3iPRVADxU} \\{}
+[7] \url{https://www.mindstudio.ai/blog/ai-agent-token-cost-optimization-multi-model-routing}
+
+si por favor me gustaría ver un ejemplo.
+
+Para inyectar esquemas ligeros (\textit{schemas}) de librerías y evitar que los agentes lean gigabytes de documentación consumiendo tus tokens, se utiliza una característica nativa de \textbf{Google Antigravity 2.0} llamada \textbf{Knowledge Mappings} (o Esquemas de Referencia Rápida). [1, 2]
+
+El truco consiste en crear un archivo JSON o Markdown ultracompacto que resuma los métodos, firmas y tipos exactos de la librería que vas a usar. El agente leerá este mapa en milisegundos en lugar de ir a buscar el código fuente de \texttt{node\_modules} o paquetes de Python. [3]
+
+A continuación, tienes un ejemplo práctico de cómo estructurar e inyectar el esquema si estuvieras desarrollando una API con \textbf{FastAPI} (Python) o \textbf{Prisma ORM}:
+
+\section*{1. El Archivo de Esquema Compacto (\texttt{.antigravity/schemas/fastapi-prisma.json})}
+
+Crea un archivo oculto en la raíz de tu proyecto o en tu carpeta de configuración global que contenga únicamente las firmas y el formato exacto que requieres, eliminando explicaciones textuales:
+
+\begin{verbatim}
+{
+  "library": "FastAPI + Prisma Auth Stub",
+  "version_target": "0.110+",
+  "allowed_routing_patterns": {
+    "APIRouter": "from fastapi import APIRouter; router = APIRouter(prefix='/v1/auth', tags=['auth'])",
+    "Response_Format": "return {'status': 'success', 'data': dict}"
+  },
+  "prisma_model_stubs": {
+    "User": {
+      "query_methods": [
+        "db.user.find_unique(where={'email': str})",
+        "db.user.create(data={'email': str, 'password_hash': str, 'role': 'USER'})"
+      ],
+      "returns": "prisma.models.User object or None"
+    }
+  },
+  "security_dependencies": {
+    "JWT_Bearer": "from app.core.security import get_current_user; Depends(get_current_user)"
+  }
+}
+\end{verbatim}
+
+\section*{2. El Workflow Multi-Modelo con Inyección Explicita}
+
+Ahora, en tu panel de \textbf{Customizations $>$ Workflows} de Antigravity, configuras al agente ejecutor para que use ese archivo JSON como su única verdad absoluta para programar. [2, 4]
+
+Al apuntar el contexto directamente a este archivo pequeño, bloqueas que el agente intente indexar todo el SDK del framework: [4]
+
+\begin{verbatim}
+# Workflow: Generación de API de Alta Precisión
+Description: Escribe endpoints de autenticación inyectando esquemas locales para ahorrar tokens.
+
+## Step 1: Programación Asistida por Esquema
+- Agent: "Backend_Coder_Agent"
+- Primary_Model: "claude-sonnet-4.5"
+- Supporting_Context: "./.antigravity/schemas/fastapi-prisma.json"
+- Instruction: >
+    Debes escribir el código del archivo 'src/routes/auth.py'.
+    REGLA DE CONTEXTO ESTRICTA: No inventes métodos de FastAPI ni de Prisma.
+    Usa única y exclusivamente las firmas de código declaradas en el archivo
+    inyectado en 'Supporting_Context'.
+    Si necesitas una función que no esté en el JSON, pregunta al usuario en lugar
+    de adivinar o buscar en la web.
+    Entrega solo el bloque de código limpio en un Artifact.
+
+## Step 2: Validación Estática
+- Agent: "Linter_Agent"
+- Primary_Model: "gemini-3.5-flash"
+- Instruction: >
+    Revisa el código generado en el paso anterior.
+    Verifica que las llamadas a 'db.user' coincidan exactamente con la estructura
+    del esquema JSON inyectado previamente. Si hay discrepancias, corrige el archivo.
+\end{verbatim}
+
+\section*{El Impacto Económico en tus Tokens}
+
+\begin{itemize}
+    \item \textbf{Sin Esquema Inyectado:} Cuando un agente lee código donde importas \texttt{from fastapi import FastAPI}, el sistema de autocompletado tradicional o el agente de Antigravity intenta indexar los archivos internos de la librería para entender los métodos. Esto puede inflar tu contexto inicial sumando entre \textbf{15,000 y 50,000 tokens innecesarios} de trasfondo.
+    \item \textbf{Con Esquema Inyectado:} Tu archivo JSON de referencia pesa escasos \textbf{250 tokens}. El agente tiene las instrucciones precisas en la memoria de trabajo a corto plazo, el código no sufre de alucinaciones sintácticas y la velocidad de respuesta del modelo se duplica al no tener que procesar dependencias gigantescas. [3, 5]
+\end{itemize}
+
+¿Qué frameworks o librerías específicas estás utilizando en tu proyecto actual? Podríamos \textbf{diseñar juntos el archivo de esquema JSON exacto} para tu entorno de desarrollo.
+
+[1] \url{https://ecosistemastartup.com/google-antigravity-2-0-crea-agentes-ia-con-1-instruccion/} \\{}
+[2] \url{https://www.youtube.com/watch?v=7jw0hZQ__Pk} \\{}
+[3] \url{https://www.youtube.com/watch?v=MhJsmN1MmOw} \\{}
+[4] \url{https://antigravity.google/} \\{}
+[5] \url{https://www.youtube.com/watch?v=3l0SRwtBAnM}
+
+\end{document}

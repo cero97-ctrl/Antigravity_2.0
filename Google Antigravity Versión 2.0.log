@@ -1,0 +1,646 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  31 MAY 2026 09:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/cero/MEGA/VS_CODE_WORKSPACE/Antigravity_2.0/Google Antigravity Versión 2.0.tex"
+(/home/cero/MEGA/VS_CODE_WORKSPACE/Antigravity_2.0/Google Antigravity Versión 2.0.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen141
+\l@unhyphenated=\language89
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count197
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count198
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count266
+\Hy@pagecounter=\count267
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count268
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count269
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen143
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count270
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count271
+\c@Item=\count272
+\c@Hfootnote=\count273
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count276
+\lst@gtempboxa=\box51
+\lst@token=\toks21
+\lst@length=\count277
+\lst@currlwidth=\dimen146
+\lst@column=\count278
+\lst@pos=\count279
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count280
+\lst@lineno=\count281
+\lst@maxwidth=\dimen149
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count282
+\lst@skipnumbers=\count283
+\lst@framebox=\box52
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box53
+) (./Google Antigravity Versión 2.0.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
+\openout1 = `"Google Antigravity Versión 2.0.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package hyperref Info: Link coloring OFF on input line 12.
+ (./Google Antigravity Versión 2.0.out) (./Google Antigravity Versión 2.0.out)
+\@outlinefile=\write3
+\openout3 = `"Google Antigravity Versión 2.0.out"'.
+
+\c@lstlisting=\count285
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen150
+\scratchbox=\box54
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen151
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+
+Overfull \hbox (5.08383pt too wide) in paragraph at lines 25--25
+[][]\OT1/cmr/bx/n/17.28 ?`C^^Somo con-vi-ven es-tas he-rra-mien-tas ac-tual-men-
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+
+Overfull \hbox (251.78885pt too wide) in paragraph at lines 39--54
+[]\OT1/cmr/m/n/12 [1] []$\OT1/cmtt/m/n/12 https : / / developers . googleblog . com / an-[]important-[]update-[]transitioning-[]gemini-[]cli-[]to-[]antigravity-[]cli/$[] 
+ []
+
+
+Overfull \hbox (166.739pt too wide) in paragraph at lines 39--54
+\OT1/cmr/m/n/12 [5] []$\OT1/cmtt/m/n/12 https : / / ecosistemastartup . com / google-[]antigravity-[]2-[]0-[]crea-[]agentes-[]ia-[]con-[]1-[]instruccion/$[] 
+ []
+
+
+Overfull \hbox (1.68892pt too wide) in paragraph at lines 39--54
+\OT1/cmr/m/n/12 [7] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / google _ antigravity / comments / 1thxv5g /
+ []
+
+
+Overfull \hbox (472.31415pt too wide) in paragraph at lines 39--54
+\OT1/cmr/m/n/12 [8] []$\OT1/cmtt/m/n/12 https : / / www . forgenex . com / public / blog / antigravity-[]2-[]0-[]google-[]unifica-[]sus-[]herramientas-[]de-[]ia-[]para-[]desarrollo-[]en-[]una-[]plataforma-[]agent-[]first$[] 
+ []
+
+
+Overfull \hbox (15.03893pt too wide) in paragraph at lines 39--54
+\OT1/cmr/m/n/12 [9] []$\OT1/cmtt/m/n/12 https : / / developers . google . com / gemini-[]code-[]assist / resources / faqs$[] 
+ []
+
+
+Overfull \hbox (41.93887pt too wide) in paragraph at lines 39--54
+\OT1/cmr/m/n/12 [15] []$\OT1/cmtt/m/n/12 https : / / fazt . dev / contenido / google-[]antigravity-[]2-[]0-[]gemini-[]3-[]5-[]flash$[] 
+ []
+
+[2]
+Overfull \hbox (83.46396pt too wide) in paragraph at lines 71--78
+\OT1/cmr/m/n/12 [2] []$\OT1/cmtt/m/n/12 https : / / codelabs . developers . google . com / getting-[]started-[]google-[]antigravity ?
+ []
+
+
+Overfull \hbox (1.68892pt too wide) in paragraph at lines 71--78
+\OT1/cmr/m/n/12 [3] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / google _ antigravity / comments / 1sbegkw /
+ []
+
+
+Overfull \hbox (65.43895pt too wide) in paragraph at lines 71--78
+\OT1/cmr/m/n/12 [4] []$\OT1/cmtt/m/n/12 https : / / developers . google . com / gemini-[]code-[]assist / docs / write-[]code-[]gemini$[] 
+ []
+
+
+Overfull \hbox (45.41394pt too wide) in paragraph at lines 71--78
+\OT1/cmr/m/n/12 [6] []$\OT1/cmtt/m/n/12 https : / / translate . google . com / translate ? u = https : / / www . xda-[]developers .
+ []
+
+
+Overfull \hbox (7.2002pt too wide) in paragraph at lines 71--78
+\OT1/cmtt/m/n/12 com / googles-[]antigravity-[]beats-[]vs-[]code / &hl = es & sl = en & tl = es & client =
+ []
+
+
+Overfull \hbox (7.86392pt too wide) in paragraph at lines 71--78
+\OT1/cmr/m/n/12 [7] []$\OT1/cmtt/m/n/12 https : / / translate . google . com / translate ? u = https : / / jimmysong . io /
+ []
+
+
+Overfull \hbox (0.52519pt too wide) in paragraph at lines 71--78
+\OT1/cmtt/m/n/12 blog / antigravity-[]vscode-[]style-[]ide / &hl = es & sl = en & tl = es & client = sge$[] 
+ []
+
+[3]
+Overfull \hbox (36.07521pt too wide) in paragraph at lines 101--101
+[]\OT1/cmtt/m/n/12 xcopy "%APPDATA%\Antigravity" "%APPDATA%\Antigravity IDE" /E /I /H /Y[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 101--101
+[]\OT1/cmtt/m/n/12 xcopy "%USERPROFILE%\.antigravity" "%USERPROFILE%\.antigravity-ide" /E /I /H /Y[] 
+ []
+
+[4]
+Overfull \hbox (208.9753pt too wide) in paragraph at lines 112--112
+[]\OT1/cmtt/m/n/12 cp -rf ~/Library/Application\ Support/Antigravity ~/Library/Application\ Support/Antigravity\ IDE[] 
+ []
+
+
+Overfull \hbox (0.62784pt too wide) in paragraph at lines 127--127
+[][]\OT1/cmr/bx/n/17.28 Migraci^^Son de co-man-dos pa-ra la Ter-mi-nal (CLI) 
+ []
+
+
+Overfull \hbox (108.76378pt too wide) in paragraph at lines 139--148
+[]\OT1/cmr/m/n/12 [1] []$\OT1/cmtt/m/n/12 https : / / dev . to / turingsoracle / antigravity-[]is-[]dead-[]long-[]live-[]antigravity-[]186m$[] 
+ []
+
+
+Overfull \hbox (1.68892pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [3] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / google _ antigravity / comments / 1tih8bf /
+ []
+
+
+Overfull \hbox (1.68892pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [5] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / google _ antigravity / comments / 1tih8bf /
+ []
+
+
+Overfull \hbox (178.089pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [6] []$\OT1/cmtt/m/n/12 https : / / discuss . ai . google . dev / t / antigravity-[]ide-[]2-[]0-[]conversation-[]history-[]migrate-[]problem /
+ []
+
+
+Overfull \hbox (63.43895pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [7] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / GeminiAI / comments / 1ti01zq / updated _ antigravity _
+ []
+
+
+Overfull \hbox (8.36392pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [8] []$\OT1/cmtt/m/n/12 https : / / antigravity . google / docs / gcli-[]migration ? authuser = 19 & hl =
+ []
+
+
+Overfull \hbox (14.53893pt too wide) in paragraph at lines 139--148
+\OT1/cmr/m/n/12 [9] []$\OT1/cmtt/m/n/12 https : / / antigravity . google / docs / gcli-[]migration ? authuser = 01 & ;hl =
+ []
+
+[5] [6]
+Overfull \hbox (57.26395pt too wide) in paragraph at lines 167--174
+\OT1/cmr/m/n/12 [2] []$\OT1/cmtt/m/n/12 https : / / www . facebook . com / groups / 882824057510049 / posts / 954218137037307/$[] 
+ []
+
+
+Overfull \hbox (20.21393pt too wide) in paragraph at lines 167--174
+\OT1/cmr/m/n/12 [3] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / ChatGPTCoding / comments / 1p35bdl / i _ tried _
+ []
+
+
+Overfull \hbox (184.264pt too wide) in paragraph at lines 167--174
+\OT1/cmr/m/n/12 [4] []$\OT1/cmtt/m/n/12 https : / / www . buildmvpfast . com / blog / google-[]antigravity-[]2-[]framework-[]cli-[]agent-[]deployment-[]2026$[] 
+ []
+
+[7]
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 220--220
+[]\OT1/cmtt/m/n/12 Description: Orquesta tareas dividiendo el trabajo entre Gemini y Claude.[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 Analiza el repositorio actual. Dise~na la estructura t^^Secnica para[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 la nueva funcionalidad solicitada por el usuario y genera la lista[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 Toma el Artifact generado por el Architect_Agent en el paso 1.[] 
+ []
+
+
+Overfull \hbox (48.42522pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 Escribe el c^^Sodigo fuente correspondiente respetando las directrices[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 arquitect^^Sonicas. Abre la terminal interna si necesitas instalar paquetes.[] 
+ []
+
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 Lee el c^^Sodigo generado por Coder_Agent. Genera la suite de pruebas unitarias[] 
+ []
+
+
+Overfull \hbox (116.35025pt too wide) in paragraph at lines 220--220
+[]    \OT1/cmtt/m/n/12 con cobertura del 90%. Ejecuta los tests en el entorno aislado para verificar.[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/12 /desarrollo_mixto "Crea un sistema de autenticaci^^Son JWT para la API"[] 
+ []
+
+[8]
+Overfull \hbox (5.35374pt too wide) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/12 Ver^^Sas un in-di-ca-dor ver-de que di-ce \OT1/cmtt/m/n/12 [Architect[]Agent - Gemini 3 Pro]
+ []
+
+
+Overfull \hbox (16.03893pt too wide) in paragraph at lines 244--254
+\OT1/cmr/m/n/12 [7] []$\OT1/cmtt/m/n/12 https : / / discuss . ai . google . dev / t / multi-[]agent-[]use-[]in-[]antigravity /
+ []
+
+
+Overfull \hbox (252.68904pt too wide) in paragraph at lines 244--254
+\OT1/cmr/m/n/12 [9] []$\OT1/cmtt/m/n/12 https : / / developers . googleblog . com / build-[]with-[]google-[]antigravity-[]our-[]new-[]agentic-[]development-[]platform/$[] 
+ []
+
+
+Overfull \hbox (114.53891pt too wide) in paragraph at lines 244--254
+\OT1/cmr/m/n/12 [10] []$\OT1/cmtt/m/n/12 https : / / codelabs . developers . google . com / getting-[]started-[]with-[]antigravity-[]skills$[] 
+ []
+
+[9] [10]
+Overfull \hbox (141.05026pt too wide) in paragraph at lines 330--330
+[]\OT1/cmtt/m/n/12 Description: Orquestaci^^Son multi-modelo con reglas estrictas de compresi^^Son de contexto.[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Analiza el repositorio actual. Dise~na la soluci^^Son t^^Secnica para el requerimiento.[] 
+ []
+
+
+Overfull \hbox (184.27528pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 REGLA DE COMPRESI[]ON DE TOKENS: No generes explicaciones largas ni c^^Sodigo fuente completo.[] 
+ []
+
+
+Overfull \hbox (147.22527pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Entrega el plan de forma comprimida exclusivamente en formato 'Pseudo-c^^Sodigo JSON'.[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Este entregable (Artifact) debe pesar menos de 400 tokens obligatoriamente.[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Lee ^^Sunicamente el Artifact JSON compacto generado en el paso 1.[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Escribe el c^^Sodigo fuente correspondiente para cumplir con el JSON.[] 
+ []
+
+
+Overfull \hbox (233.67531pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 REGLA DE COMPRESI[]ON DE TOKENS: No devuelvas explicaciones ni repitas c^^Sodigo que no haya cambiado.[] 
+ []
+
+[11]
+Overfull \hbox (147.22527pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Genera un Artifact de salida que contenga estrictamente el bloque de c^^Sodigo nuevo y[] 
+ []
+
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 los nombres de las funciones modificadas. Omite comentarios redundantes.[] 
+ []
+
+
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Toma el bloque de c^^Sodigo nuevo generado por Coder_Agent en el paso 2.[] 
+ []
+
+
+Overfull \hbox (159.57527pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 No leas el historial de conversaci^^Son anterior para evitar el desperdicio de contexto.[] 
+ []
+
+
+Overfull \hbox (184.27528pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Genera la suite de pruebas unitarias enfoc^^Sandote ^^Sunicamente en el nuevo bloque de c^^Sodigo.[] 
+ []
+
+
+Overfull \hbox (48.42522pt too wide) in paragraph at lines 330--330
+[]    \OT1/cmtt/m/n/12 Ejecuta el comando en el entorno aislado para validar el resultado.[] 
+ []
+
+[12]
+Overfull \hbox (1.68892pt too wide) in paragraph at lines 344--351
+\OT1/cmr/m/n/12 [4] []$\OT1/cmtt/m/n/12 https : / / www . reddit . com / r / google _ antigravity / comments / 1thxv5g /
+ []
+
+
+Overfull \hbox (9.86392pt too wide) in paragraph at lines 344--351
+\OT1/cmr/m/n/12 [5] []$\OT1/cmtt/m/n/12 https : / / www . mindstudio . ai / blog / optimize-[]mcp-[]server-[]token-[]usage$[] 
+ []
+
+
+Overfull \hbox (141.03899pt too wide) in paragraph at lines 344--351
+\OT1/cmr/m/n/12 [7] []$\OT1/cmtt/m/n/12 https : / / www . mindstudio . ai / blog / ai-[]agent-[]token-[]cost-[]optimization-[]multi-[]model-[]routing$[] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 360.
+
+Overfull \hbox (288.1678pt too wide) in paragraph at lines 360--360
+[][]\OT1/cmr/bx/n/17.28 1. El Ar-chi-vo de Es-que-ma Com-pac-to (\OT1/cmtt/m/n/17.28 .antigravity/schemas/fastapi-prisma.json\OT1/cmr/bx/n/17.28 ) 
+ []
+
+
+Overfull \hbox (246.02531pt too wide) in paragraph at lines 385--385
+[]    \OT1/cmtt/m/n/12 "APIRouter": "from fastapi import APIRouter; router = APIRouter(prefix='/v1/auth', tags=['auth'])",[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 385--385
+[]    \OT1/cmtt/m/n/12 "Response_Format": "return {'status': 'success', 'data': dict}"[] 
+ []
+
+[13]
+Overfull \hbox (122.52525pt too wide) in paragraph at lines 385--385
+[]        \OT1/cmtt/m/n/12 "db.user.create(data={'email': str, 'password_hash': str, 'role': 'USER'})"[] 
+ []
+
+
+Overfull \hbox (184.27528pt too wide) in paragraph at lines 385--385
+[]    \OT1/cmtt/m/n/12 "JWT_Bearer": "from app.core.security import get_current_user; Depends(get_current_user)"[] 
+ []
+
+
+Overfull \hbox (202.8003pt too wide) in paragraph at lines 417--417
+[]\OT1/cmtt/m/n/12 Description: Escribe endpoints de autenticaci^^Son inyectando esquemas locales para ahorrar tokens.[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 417--417
+[]\OT1/cmtt/m/n/12 - Supporting_Context: "./.antigravity/schemas/fastapi-prisma.json"[] 
+ []
+
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 417--417
+[]    \OT1/cmtt/m/n/12 REGLA DE CONTEXTO ESTRICTA: No inventes m^^Setodos de FastAPI ni de Prisma.[] 
+ []
+
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 417--417
+[]    \OT1/cmtt/m/n/12 Usa ^^Sunica y exclusivamente las firmas de c^^Sodigo declaradas en el archivo[] 
+ []
+
+
+Overfull \hbox (110.17525pt too wide) in paragraph at lines 417--417
+[]    \OT1/cmtt/m/n/12 Si necesitas una funci^^Son que no est^^Se en el JSON, pregunta al usuario en lugar[] 
+ []
+
+[14]
+Overfull \hbox (110.17525pt too wide) in paragraph at lines 417--417
+[]    \OT1/cmtt/m/n/12 Verifica que las llamadas a 'db.user' coincidan exactamente con la estructura[] 
+ []
+
+
+Overfull \hbox (134.87526pt too wide) in paragraph at lines 417--417
+[]    \OT1/cmtt/m/n/12 del esquema JSON inyectado previamente. Si hay discrepancias, corrige el archivo.[] 
+ []
+
+
+Overfull \hbox (184.36382pt too wide) in paragraph at lines 428--433
+[]\OT1/cmr/m/n/12 [1] []$\OT1/cmtt/m/n/12 https : / / ecosistemastartup . com / google-[]antigravity-[]2-[]0-[]crea-[]agentes-[]ia-[]con-[]1-[]instruccion/$[] 
+ []
+
+[15] (./Google Antigravity Versión 2.0.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `"Google Antigravity Versión 2.0".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 11289 strings out of 474222
+ 175193 string characters out of 5748734
+ 1937975 words of memory out of 5000000
+ 33409 multiletter control sequences out of 15000+600000
+ 563615 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,6n,79p,625b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "Google Antigravity Versión 2.0.pdf" (15 pages, 139356 bytes).
+PDF statistics:
+ 231 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
